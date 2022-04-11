@@ -1,0 +1,289 @@
+
+
+header{
+    background-color: #FF872F;
+    font-size: 40px;  
+    font-family: 'Kavoon', cursive;
+    font-weight: 400;
+    color: white;
+}
+a{
+    margin-right: 45px;
+}
+
+.logo{
+    display:flex; 
+    align-items: center;
+}
+
+.cabeca{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 10px;
+}
+
+.cabeca a{ 
+     color: white;
+
+}
+
+.petfeliz{
+    font-family: 'Kavoon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 80px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+
+.acheseuamigo{
+
+    font-family: 'Kavoon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.textologo{
+    display:flex; 
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 15px;
+}
+.navbar{
+    font-family: 'Kavoon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.bolalaranja{
+    display:flex; 
+    flex-direction: column;
+    justify-content: center; /* */
+    align-items: center;
+
+    border: 14px solid  #FF872F ;
+    border-radius: 100%;
+    width: 164px;
+    height: 164px;
+    
+}
+
+.bolabranca{
+    display:flex; 
+    flex-direction: column;
+    justify-content: center; /* */
+    align-items: center;
+
+    border: 14px solid  white ;
+    border-radius: 100%;
+    width: 136px;
+    height: 136px;
+}
+
+.linha{  
+    display:flex; 
+    justify-content: center;
+    padding: 60px;
+    gap: 302px;
+
+}
+
+.textomain{
+    font-family: 'Exo 2';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+    backdrop-filter: blur(4px);
+
+    display:flex; 
+    justify-content: center;
+}
+.linha h1{
+
+    font-family: 'Exo 2';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    color: #000000;
+
+}
+
+
+footer{
+    background-color: #FF872F;
+    padding: 10px;
+    display:flex ;
+    justify-content: space-between;
+
+}
+
+.esquerda p{
+    font-family: 'ABeeZee';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    display:flex; 
+    flex-direction: column;
+    justify-content: center;
+}
+.esquerda{
+    align-items: center;
+}
+.contato{
+    display:flex ;
+    gap: 10px;
+}
+.contato img{
+    width: 25px;
+    height: 25px;
+}
+
+.direita{
+    display:flex ;
+    align-items: center;
+    gap: 10px;
+}
+
+.botao{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.bolalaranja img:hover{
+    transform: scale(1.32)
+}
+
+.bolabranca img{
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+/* MODAIS  */
+
+*, *::after, *::before {
+    box-sizing: border-box;
+  }
+  
+  .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 8px solid #FF872F;
+    
+    z-index: 10;
+    background-color: white;
+    max-width: 80%;
+  }
+  
+  .modal.active {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  
+  .modal-header {
+    display:  flex;
+    padding: 10px 15px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    gap: 30px;
+    align-items: center;
+
+  }
+  
+  .close-button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .modal-body {
+    padding: 10px 15px;
+    font-family: 'Kavoon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    /* identical to box height */
+    text-align: justify;
+    color: black;
+  }
+  
+  #overlay {
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    pointer-events: none;
+  }
+  
+  #overlay.active {
+    opacity: 1;
+    pointer-events: all;
+  }
+
+  .textocima{
+    font-family: 'Kavoon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 50px;
+    /* identical to box height */
+    color: #EF7E2A;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .textocima h4{
+    font-family: 'Kavoon';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+    /* identical to box height */    
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+  }
+
+  .animalmodal{
+    width: 200px;
+    height: 200px;
+  }

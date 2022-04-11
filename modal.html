@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Modal</title>
+  <link href="styles.css" rel="stylesheet">
+  <script defer src="script.js"></script>
+  <link  rel="stylesheet" href="css/reset.css"> <!-- adicionando o reset no css, sempre colocar o reset em cima do css-->
+        <link  rel="stylesheet" href="css/index.css"> <!-- adicionando css-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kavoon&family=Redressed&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@100&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet">
+</head>
+
+
+
+
+
+<body>
+
+<button data-modal-target="#modal">Open Modal</button>
+  
+     <div class="modal" id="gatomodal">
+        
+        <div class="modal-header">
+            <button data-close-button class="close-button">&times;</button>   
+            <img src = "\assets\img\gatinho.png" class = "animalmodal">
+            
+            <div class = "textocima">
+                <h1>
+                    Ficha do Pet
+                </h1>
+                <h4>
+                    Nome: Adolfo
+                    <p>Idade: 2 anos</p>
+                    <p>Porte: Medio</p>
+                    <p>Especie:Gato Chartreux</p>
+                </h4>
+            </div>
+        </div>
+             
+        <div class="modal-body">
+            <p>Historia: Adolfo foi encontrado abandonado na rua, quando encontrado estava doente e magro.</p> 
+            <p>Descricao: Felino cinza, com olhos amarelados, alimentacao a base de peixes e racao. Precisa de cuidados especiais no veterinario, devido a doenca renal.</p>
+        </div>
+
+    </div>
+
+    <div id="overlay"></div>
+
+
+
+</body>
+
+
+
+
+
+
+
+</html>
