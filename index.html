@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang = "pt-br"> 
+<html lang = "pt-br">
     <head>
-        <meta charset="UTF-8"> <!-- definindo o tipo de caracteres da pagina-->
-        <title>PetFeliz</title> <!--  definindo titulo da pagina-->
+        <meta charset="UTF-8">
+        <title>PetFeliz</title>
         <meta name="viewport" content="width=device-witdh, initial-scale=1.0"> <!-- serve pra deixar a pagina de acordo com o tamnanho do dispositvo, so funciona se o css interpretar-->
         <meta http-equiv="X-UA-Compatible" content="ie=edge"> <!-- serve pra o internet explorer funcionar com o htlm5 e css 3 melhor-->
         <meta name = "application-name" content="PetFeliz"> <!--define nome para criar atalhos --> 
@@ -15,8 +15,7 @@
         <meta name = "robots", content="index,follow"> <!-- para motores de busca seguirem seus links e anexarem sua pagina-->
         <link  rel="stylesheet" href="css/reset.css"> <!-- adicionando o reset no css, sempre colocar o reset em cima do css-->
         <link  rel="stylesheet" href="css/index.css"> <!-- adicionando css-->
-
-        <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- adicionando fontes-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Kavoon&family=Redressed&display=swap" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,37 +24,34 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet">
-
-        <link rel="icon" type="image/svg" href="assets/img/logo.svg"/> <!-- adicionando icone da pagina, onde ficam as guais-->
+        <link rel="icon" type="image/svg" href="assets/img/logo.svg"/>
         
     </head>
-    <body>  <!-- inicio do body-->       
-        
-       <header class="cabeca">  <!-- inicio do cabecalho -->
+    <body>          
+       <header class="cabeca"> 
 
-        <div class ="logo" > <!-- construcao do logo -->
+        <div class ="logo" > 
             <div class="textologo">   
                 <h2 class="petfeliz">Pet Feliz</h2>
                 <h3 class="acheseuamigo">Ache seu amigo!</h3>
             </div>
-            <img src="assets/img/logo.svg"> <!-- adicao do mascote da pagina na logo -->
+            <img src="assets/img/logo.svg">
         </div>
 
-            <nav class="navbar"> <!-- cosntrucao da barra de navegacao do site -->
-                <a href= "">Visita</a>  <!-- posteriormente, poderiam ser adicionados links para as novas paginas do site.-->
+            <nav class="navbar">
+                <a href= "">Visita</a> 
                 <a href=" ">Parcerias</a>
                 <a href=" ">Sobre-nós</a>
             </nav>
-       </header> <!-- fim do cabecalho-->
+       </header>
        
-       <main class= "meio"> <!-- incio da secao para a adocao-->
+       <main class= "meio">
             <h3 class= "textomain"> Nosso site está cheio de animais ansiosos por uma família. Vem ver!</h3>
-            
-            <div class="linha"> <!-- primeira linha de pets, cada linha contem 3 pets-->
-                <div> <!--  incio pet. Cada pet, e composto por uma borda laranja, uma borda branca e um botao-imagem-->
-                    <div class="bolalaranja"> 
+            <div class="linha">
+                <div>
+                    <div class="bolalaranja">
                         <div class="bolabranca">
-                            <button class="modal-open" data-modal="modalgatinho">  <!-- botao de gatilho para o modal-->
+                            <button class="modal-open" data-modal="modalgatinho"> 
                                 <img src = ".\assets\img\gatinho.png">
                             </button>
                         </div>
@@ -63,10 +59,9 @@
                     <h1>
                         Adolfo
                     </h1>
-                </div> <!-- fim do 1 pet-->
+                </div>
 
-                 <div><!--  inicio dp 2 pet-->
-
+                 <div>
                     <div class="bolalaranja">
                         <div class="bolabranca">
                             <button class="modal-open" data-modal="modallargatixa"> 
@@ -77,9 +72,9 @@
                     <h1>
                         Bob
                     </h1>
-                </div> <!-- fim do 2 pet-->
+                </div>
 
-                 <div> <!--  inicio dp 3 pet-->
+                 <div>
                     <div class="bolalaranja">
                         <div class="bolabranca">
                             <button class="modal-open" data-modal="modalcachorrinho"> 
@@ -90,12 +85,12 @@
                     <h1>
                         Buggy
                     </h1>
-                </div> <!-- fim do 3 pet-->
+                </div>
 
-            </div> <!-- fim da 1 linha de pets-->
+            </div>
 
-            <div class="linha"> <!-- segunda linha de pets-->
-                <div> <!--  inicio dp 4 pet-->
+            <div class="linha">
+                <div>
                     <div class="bolalaranja">
                         <div class="bolabranca">
                             <button class="modal-open" data-modal="modalporquinho"> 
@@ -106,9 +101,9 @@
                     <h1>
                         Princesa
                     </h1>
-                </div><!-- fim do 4 pet-->
+                </div>
 
-                <div> <!--  inicio dp 5 pet-->
+                <div>
                     <div class="bolalaranja">
                         <div class="bolabranca">
                             <button class="modal-open" data-modal="modalpiriquito"> 
@@ -119,9 +114,9 @@
                     <h1>
                         Lisa
                     </h1>
-                </div><!-- fim do 5 pet-->
+                </div>
 
-                <div> <!--  inicio dp 6 pet-->
+                <div>
                     <div class="bolalaranja">
                         <div class="bolabranca">
                             <button class="modal-open" data-modal="modaltartaruga"> 
@@ -132,40 +127,39 @@
                     <h1>
                         Isaac
                     </h1>
-                </div><!-- fim do 6 pet-->
-            </div><!-- final da segunda linha de pets-->
+                </div>
+            </div>
         </main>
-        <footer> <!-- incio do rodape-->
-            <div class= " esquerda"> <!-- na esquerda do rodape, existem o email, telefone e endereco-->
+        <footer>
+            <div class= " esquerda">
                 
                 <div class="contato">
                     <img src = ".\assets\img\local.png">
-                    <p>Endereço: Pituba, Rua Tangerina N° 544 </p> <!--posterioemente poderiam ser adicionadas um redirecionamento para o local no google maps da sede da petfliz-->
+                    <p>Endereço: Pituba, Rua Tangerina N° 544 </p> 
                 </div>
                 
                 <div class="contato">
-                    <img src = ".\assets\img\telefone.png"> <!--posterioemente poderiam ser adicionadas um redirecionamento para o whatzap da PetFeliz-->
+                    <img src = ".\assets\img\telefone.png">
                     <p>Telefone: (71) 99568-4548 </p>
                 </div>
                 <div class="contato">
-                    <img src = ".\assets\img\email.png"> <!--posterioemente poderiam ser adicionadas um redirecionamento para gmail da PetFeliz-->
+                    <img src = ".\assets\img\email.png">
                     <p>Email: PetFeliz@gmail.com </p>
                 </div>
             </div>
 
-            <div class = "direita"> <!-- na direita do rodape, existem os shields, que redirecionariam para as redes sociais da petfeliz-->
+            <div class = "direita">
                 <img src = ".\assets\img\twitter.png">
                 <img src = ".\assets\img\facebook.png">
                 <img src = ".\assets\img\instagram.png">
 
             </div>
-        </footer><!-- fim do rodape-->
+        </footer>
 
-        <!--inicio dos modais, pop-ups, iniciamente nao visiveis-->
-
-        <div class="modal" id="modalgatinho">  <!--inicio do primeiro pop-up, cada pop-up contem o cabecalho e o body-->
-            <div class="modal-content"> <!-- resposavel por deixar o fundo cinza temporariamente -->
-           <div class="modal-header"> <!-- o header as informacoes iniciais de cada pet, idade, porte, foto e especie -->
+        <!--modalis-->
+        <div class="modal" id="modalgatinho"> 
+            <div class="modal-content">
+           <div class="modal-header">
                <img src = ".\assets\img\gatinho.png" class = "animalmodal">
                
                <div class = "textocima">
@@ -178,20 +172,20 @@
                        <p>Porte: Médio</p>
                        <p>Espécie: Gato Chartreux</p>
                    </h4>
-                   <button class = "link modal-close" class="close-button" >&times;</button>  <!-- botao para fechar o pop-up--> 
+                   <button class = "link modal-close" class="close-button" >&times;</button>   
                </div>
-           </div> <!--fim do caecalho -->
+           </div>
                 
-           <div class="modal-body"> <!-- o body, contendo a descricao e historia do bixinho-->
+           <div class="modal-body">
                <p>História: Adolfo foi encontrado abandonado na rua, quando achado estava doente e magro.</p> 
                 <p class="descricao">Descrição: Felino cinza, com olhos amarelados, alimentação a base de peixes e ração. Precisa de cuidados especiais no veterinário, devido a doença renal</p>
-           </div> <!--fim do body-->
+           </div>
         </div>
-       </div> <!-- fim do 1 pet-->
+       </div>
 
-       <div class="modal" id="modalcachorrinho"> <!-- incio do 2 pet-->
+       <div class="modal" id="modalcachorrinho">
         <div class="modal-content">
-        <div class="modal-header"><!-- o header as informacoes iniciais de cada pet, idade, porte, foto e especie -->
+        <div class="modal-header">
             <img src = ".\assets\img\buggy.png" class = "animalmodal">
             <div class = "textocima">
                 <h1>
@@ -201,22 +195,22 @@
                     Nome: Buggy
                     <p>Idade: 3 anos</p>
                     <p>Porte: Médio</p>
-                    <p>Espécie: Cachorro Puggy</p>
+                    <p>Espécie: Puggy</p>
                 </h4>
                         <button class = "link modal-close" class="close-button" >&times;</button>   
             </div>
-        </div><!-- fim do header-->
+        </div>
              
-        <div class="modal-body"> <!-- o body, contendo a descricao e historia do bixinho-->
+        <div class="modal-body">
             <p>História: Buggy vivia no porto de Salvador, recebendo comida das moradores e comerciantes por perto.</p> 
              <p class="descricao">Descrição: Cachorrinho amigável, e que adora brincar. Alimentação baseada em ração e petiscos.</p>
-        </div><!--fim do body-->
+        </div>
     </div>
-    </div><!-- fim do 2 pet-->
+    </div>
     
-    <div class="modal" id="modallargatixa">  <!-- incio do 3 pet-->
+    <div class="modal" id="modallargatixa"> 
         <div class="modal-content">
-        <div class="modal-header"><!-- o header as informacoes iniciais de cada pet, idade, porte, foto e especie -->
+        <div class="modal-header">
             <img src = ".\assets\img\bob.png" class = "animalmodal">
             
             <div class = "textocima">
@@ -227,23 +221,23 @@
                     Nome: Bob
                     <p>Idade: Desconhecida</p>
                     <p>Porte: Pequeno</p>
-                    <p>Espécie: Lagartixa Leopardo</p>
+                    <p>Espécie: Leopardo</p>
                 </h4>
                                <button class = "link modal-close" class="close-button" >&times;</button>   
             </div>
-        </div><!-- fim do header-->
+        </div>
              
-        <div class="modal-body"><!-- o body, contendo a descricao e historia do bixinho-->
+        <div class="modal-body">
             <p>História: Bob foi trazido pela guarda florestal de Salvador, a espécie é natural da amazônia, e como ele veio parar numa floresta em salvador ainda é desconhecido. </p> 
              <p class="descricao">Descrição: Lagartixa fofa e serelepe. Alimentação baseada em insetos e frutas, e além disso, precisa ser mantido em um aquário, com luzes e ambientes aquecidos. Não pode ser exposto a muito estresse.</p>
-        </div><!--fim do body-->
+        </div>
     </div>
-    </div><!-- fim do 3 pet-->
+    </div>
 
 
-    <div class="modal" id="modalporquinho">  <!-- incio do 4 pet-->
+    <div class="modal" id="modalporquinho"> 
         <div class="modal-content">
-        <div class="modal-header"><!-- o header as informacoes iniciais de cada pet, idade, porte, foto e especie -->
+        <div class="modal-header">
             <img src = ".\assets\img\Princesa.png" class = "animalmodal">
             
             <div class = "textocima">
@@ -254,22 +248,22 @@
                     Nome: Princesa
                     <p>Idade: 4 meses </p>
                     <p>Porte: Pequeno</p>
-                    <p>Espécie: Porquinho da india Inglês </p>
+                    <p>Espécie: Inglês </p>
                 </h4>
                     <button class = "link modal-close" class="close-button" >&times;</button>   
             </div>
-        </div><!-- fim do header-->
+        </div>
              
-        <div class="modal-body"><!-- o body, contendo a descricao e historia do bixinho-->
+        <div class="modal-body">
             <p>História: A Princesa foi doada por uma família que não podia cuidar de outro porquinho da índia.</p> 
              <p class="descricao">Descrição: Porquinho da índia quieto e calmo, come bastante. Alimentação baseada em semestre e ração. A expectativa de vida é de 9 anos.</p>
-        </div><!--fim do body-->
+        </div>
     </div>
-    </div><!-- fim do 4 pet-->
+    </div>
 
-    <div class="modal" id="modalpiriquito">  <!-- incio do 5 pet-->
+    <div class="modal" id="modalpiriquito"> 
         <div class="modal-content">
-        <div class="modal-header"><!-- o header as informacoes iniciais de cada pet, idade, porte, foto e especie -->
+        <div class="modal-header">
             <img src = ".\assets\img\Lisa.png" class = "animalmodal">
             
             <div class = "textocima">
@@ -284,18 +278,18 @@
                 </h4>
                     <button class = "link modal-close" class="close-button" >&times;</button>   
             </div>
-        </div> <!-- fim do header-->
+        </div>
              
-        <div class="modal-body"><!-- o body, contendo a descricao e historia do bixinho-->
+        <div class="modal-body">
             <p>História: Lisa foi recuperada de um esquema de tráfico de aves no interior da Bahia.</p> 
              <p class="descricao">Descrição: Ave curiosa e animada, adora repetir as falas dos humanos, Alimentação baseadas em frutas, sementes e alpiste.</p>
-        </div><!--fim do body-->
+        </div>
     </div>
-    </div><!-- fim do 5 pet-->
+    </div>
 
-    <div class="modal" id="modaltartaruga">  <!-- incio do 6 pet-->
+    <div class="modal" id="modaltartaruga"> 
         <div class="modal-content">
-        <div class="modal-header"><!-- o header as informacoes iniciais de cada pet, idade, porte, foto e especie -->
+        <div class="modal-header">
             <img src = ".\assets\img\isaac.png" class = "animalmodal">
             
             <div class = "textocima">
@@ -306,21 +300,21 @@
                     Nome: Isaac
                     <p>Idade: 10 anos</p>
                     <p>Porte: Pequeno</p>
-                    <p>Espécie: Tartaruga Tigre d’água</p>
+                    <p>Espécie: Tigre d’água</p>
                 </h4>
                                <button class = "link modal-close" class="close-button" >&times;</button>   
             </div>
             
-        </div><!-- fim do header-->
+        </div>
              
-        <div class="modal-body"><!-- o body, contendo a descricao e historia do bixinho-->
+        <div class="modal-body">
             <p>História: Isaac vivia ao lado do terreno onde hoje é a nossa sede, devido a poluição do rio ao lado, estava doente e debilitado.</p> 
              <p class="descricao">Descrição: Tartaruga tranquila e passiva, precisa de acompanhamento veterinário regular,come de tudo: vegetais, verduras e frutas.</p>
-        </div><!--fim do body-->
+        </div>
     </div>
-    </div><!-- fim do 6 pet-->
+    </div>
 
 
-    </body> <!-- fim do site-->
-    <script src="./script.js"></script> <!-- linkando o script em js -->
+    </body>
+    <script src="./script.js"></script>
 </html>
