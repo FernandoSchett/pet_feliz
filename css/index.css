@@ -336,16 +336,6 @@ footer{
     background: rgba(0,0,0,0.5);
     z-index: 2;
     animation: modal-open .5s;
-    background: white;
-    margin-top: 100px;
-    width: 80%;
-    height: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 8px 24px;
-    border-radius: 4px;
-    z-index: 4;
-    border: 8px solid #FF872F;
  }
 
 
@@ -358,7 +348,9 @@ footer{
      padding: 8px 24px;
      border-radius: 4px;
      z-index: 4;
- }
+     border: 8px solid #FF872F;
+  
+    }
  
  .modal-header{
      font-weight: 500;
