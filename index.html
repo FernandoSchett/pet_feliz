@@ -10,6 +10,8 @@
         <meta name = "keywords", content="Pet,PetFeliz, CimatecJr, CimatecJr., Prosel, Processo Seletivo, Adotar, Animal,Animal de Estimacao" >
         <meta name = "author", content="Fernando Schettini" > <!-- autor do site-->
         <meta name = "generator", content="Visual Studio Code"> <!-- mostra o gerador do site-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
         <meta name = "robots", content="index,follow"> <!-- para motores de busca seguirem seus links e anexarem sua pagina-->
         <link  rel="stylesheet" href="css/reset.css"> <!-- adicionando o reset no css, sempre colocar o reset em cima do css-->
         <link  rel="stylesheet" href="css/index.css"> <!-- adicionando css-->
@@ -37,7 +39,7 @@
         </div>
 
             <nav class="navbar">
-                <a href= "https://www.youtube.com/watch?v=3jFGMGZrysQ&list=RDMM0FvSLYmXweI&index=15">Visita</a> 
+                <a href= "">Visita</a> 
                 <a href=" ">Parcerias</a>
                 <a href=" ">Sobre-nós</a>
             </nav>
@@ -49,8 +51,8 @@
                 <div>
                     <div class="bolalaranja">
                         <div class="bolabranca">
-                            <button data-modal-target="#modal" class="botao"> 
-                                <img src = "\assets\img\gatinho.png">
+                            <button class="modal-open" data-modal="modalgatinho"> 
+                                <img src = ".\assets\img\gatinho.png">
                             </button>
                         </div>
                     </div>
@@ -62,8 +64,8 @@
                  <div>
                     <div class="bolalaranja">
                         <div class="bolabranca">
-                            <button  data-modal-target="#modal" class="botao"> 
-                                <img src = "\assets\img\Bob.png">
+                            <button class="modal-open" data-modal="modallargatixa"> 
+                                <img src = ".\assets\img\Bob.png">
                             </button>
                         </div>
                     </div>
@@ -75,8 +77,8 @@
                  <div>
                     <div class="bolalaranja">
                         <div class="bolabranca">
-                            <button data-modal-target="#modal" class="botao"> 
-                                <img src = "\assets\img\Buggy.png">
+                            <button class="modal-open" data-modal="modalcachorrinho"> 
+                                <img src = ".\assets\img\Buggy.png">
                             </button>
                         </div>
                     </div>
@@ -91,8 +93,8 @@
                 <div>
                     <div class="bolalaranja">
                         <div class="bolabranca">
-                            <button data-modal-target="#modal"  class="botao"> 
-                                <img src = "\assets\img\Princesa.png">
+                            <button class="modal-open" data-modal="modalporquinho"> 
+                                <img src = ".\assets\img\Princesa.png">
                             </button>
                         </div>
                     </div>
@@ -104,8 +106,8 @@
                 <div>
                     <div class="bolalaranja">
                         <div class="bolabranca">
-                            <button data-modal-target="#modal" class="botao"> 
-                                <img src = "\assets\img\Lisa.png">
+                            <button class="modal-open" data-modal="modalpiriquito"> 
+                                <img src = ".\assets\img\Lisa.png">
                             </button>
                         </div>
                     </div>
@@ -117,8 +119,8 @@
                 <div>
                     <div class="bolalaranja">
                         <div class="bolabranca">
-                            <button data-modal-target="#modal" class="botao"> 
-                                <img src = "\assets\img\Isaac.png">
+                            <button class="modal-open" data-modal="modaltartaruga"> 
+                                <img src = ".\assets\img\Isaac.png">
                             </button>
                         </div>
                     </div>
@@ -132,34 +134,32 @@
             <div class= " esquerda">
                 
                 <div class="contato">
-                    <img src = "\assets\img\local.png">
+                    <img src = ".\assets\img\local.png">
                     <p>Endereço: Pituba, Rua Tangerina N° 544 </p> 
                 </div>
                 
                 <div class="contato">
-                    <img src = "\assets\img\telefone.png">
+                    <img src = ".\assets\img\telefone.png">
                     <p>Telefone: (71) 99568-4548 </p>
                 </div>
                 <div class="contato">
-                    <img src = "\assets\img\email.png">
+                    <img src = ".\assets\img\email.png">
                     <p>Email: PetFeliz@gmail.com </p>
                 </div>
             </div>
 
             <div class = "direita">
-                <img src = "\assets\img\twitter.png">
-                <img src = "\assets\img\facebook.png">
-                <img src = "\assets\img\instagram.png">
+                <img src = ".\assets\img\twitter.png">
+                <img src = ".\assets\img\facebook.png">
+                <img src = ".\assets\img\instagram.png">
 
             </div>
         </footer>
 
-  
-        <div class="modal" id="modal">
-           
+        <!--modalis-->
+        <div class="modal" id="modalgatinho"> 
            <div class="modal-header">
-               <button data-close-button class="close-button">&times;</button>   
-               <img src = "\assets\img\gatinho.png" class = "animalmodal">
+               <img src = ".\assets\img\gatinho.png" class = "animalmodal">
                
                <div class = "textocima">
                    <h1>
@@ -168,20 +168,140 @@
                    <h4>
                        Nome: Adolfo
                        <p>Idade: 2 anos</p>
-                       <p>Porte: Medio</p>
-                       <p>Especie:Gato Chartreux</p>
+                       <p>Porte: Médio</p>
+                       <p>Espécie: Gato Chartreux</p>
                    </h4>
+                   <button class = "link modal-close" class="close-button" >&times;</button>   
                </div>
            </div>
                 
            <div class="modal-body">
-               <p>Historia: Adolfo foi encontrado abandonado na rua, quando encontrado estava doente e magro.</p> 
-               <p>Descricao: Felino cinza, com olhos amarelados, alimentacao a base de peixes e racao. Precisa de cuidados especiais no veterinario, devido a doenca renal.</p>
+               <p>História: Adolfo foi encontrado abandonado na rua, quando achado estava doente e magro.</p> 
+                <p class="descricao">Descrição: Felino cinza, com olhos amarelados, alimentação a base de peixes e ração. Precisa de cuidados especiais no veterinário, devido a doença renal</p>
            </div>
-   
        </div>
-   
-       <div id="overlay"></div>
+
+       <div class="modal" id="modalcachorrinho"> 
+        <div class="modal-header">
+            <img src = ".\assets\img\buggy.png" class = "animalmodal">
+            <div class = "textocima">
+                <h1>
+                    Ficha do Pet
+                </h1>
+                <h4>
+                    Nome: Buggy
+                    <p>Idade: 3 anos</p>
+                    <p>Porte: Médio</p>
+                    <p>Espécie: Puggy</p>
+                </h4>
+                        <button class = "link modal-close" class="close-button" >&times;</button>   
+            </div>
+        </div>
+             
+        <div class="modal-body">
+            <p>História: Buggy vivia no porto de Salvador, recebendo comida das moradores e comerciantes por perto.</p> 
+             <p class="descricao">Descrição: Cachorrinho amigável, e que adora brincar. Alimentação baseada em ração e petiscos.</p>
+        </div>
+    </div>
+    
+    <div class="modal" id="modallargatixa"> 
+        <div class="modal-header">
+            <img src = ".\assets\img\bob.png" class = "animalmodal">
+            
+            <div class = "textocima">
+                <h1>
+                    Ficha do Pet
+                </h1>
+                <h4>
+                    Nome: Bob
+                    <p>Idade: Desconhecida</p>
+                    <p>Porte: Pequeno</p>
+                    <p>Espécie: Leopardo</p>
+                </h4>
+                               <button class = "link modal-close" class="close-button" >&times;</button>   
+            </div>
+        </div>
+             
+        <div class="modal-body">
+            <p>História: Bob foi trazido pela guarda florestal de Salvador, a espécie é natural da amazônia, e como ele veio parar numa floresta em salvador ainda é desconhecido. </p> 
+             <p class="descricao">Descrição: Lagartixa fofa e serelepe. Alimentação baseada em insetos e frutas, e além disso, precisa ser mantido em um aquário, com luzes e ambientes aquecidos. Não pode ser exposto a muito estresse.</p>
+        </div>
+    </div>
+
+
+    <div class="modal" id="modalporquinho"> 
+        <div class="modal-header">
+            <img src = ".\assets\img\Princesa.png" class = "animalmodal">
+            
+            <div class = "textocima">
+                <h1>
+                    Ficha do Pet
+                </h1>
+                <h4>
+                    Nome: Princesa
+                    <p>Idade: 4 meses </p>
+                    <p>Porte: Pequeno</p>
+                    <p>Espécie: Inglês </p>
+                </h4>
+                    <button class = "link modal-close" class="close-button" >&times;</button>   
+            </div>
+        </div>
+             
+        <div class="modal-body">
+            <p>História: A Princesa foi doada por uma família que não podia cuidar de outro porquinho da índia.</p> 
+             <p class="descricao">Descrição: Porquinho da índia quieto e calmo, come bastante. Alimentação baseada em semestre e ração. A expectativa de vida é de 9 anos.</p>
+        </div>
+    </div>
+
+    <div class="modal" id="modalpiriquito"> 
+        <div class="modal-header">
+            <img src = ".\assets\img\Lisa.png" class = "animalmodal">
+            
+            <div class = "textocima">
+                <h1>
+                    Ficha do Pet
+                </h1>
+                <h4>
+                    Nome: Lisa
+                    <p>Idade: 1 ano e 6 meses</p>
+                    <p>Porte: Pequeno</p>
+                    <p>Espécie: Periquito Verde</p>
+                </h4>
+                    <button class = "link modal-close" class="close-button" >&times;</button>   
+            </div>
+        </div>
+             
+        <div class="modal-body">
+            <p>História: Lisa foi recuperada de um esquema de tráfico de aves no interior da Bahia.</p> 
+             <p class="descricao">Descrição: Ave curiosa e animada, adora repetir as falas dos humanos, Alimentação baseadas em frutas, sementes e alpiste.</p>
+        </div>
+    </div>
+
+    <div class="modal" id="modaltartaruga"> 
+        <div class="modal-header">
+            <img src = ".\assets\img\isaac.png" class = "animalmodal">
+            
+            <div class = "textocima">
+                <h1>
+                    Ficha do Pet
+                </h1>
+                <h4>
+                    Nome: Isaac
+                    <p>Idade: 10 anos</p>
+                    <p>Porte: Pequeno</p>
+                    <p>Espécie: Tigre d’água</p>
+                </h4>
+                               <button class = "link modal-close" class="close-button" >&times;</button>   
+            </div>
+        </div>
+             
+        <div class="modal-body">
+            <p>História: Isaac vivia ao lado do terreno onde hoje é a nossa sede, devido a poluição do rio ao lado, estava doente e debilitado.</p> 
+             <p class="descricao">Descrição: Tartaruga tranquila e passiva, precisa de acompanhamento veterinário regular,come de tudo: vegetais, verduras e frutas.</p>
+        </div>
+    </div>
+
+
     </body>
-    <script src="./index.js"></script>
+    <script src="./script.js"></script>
 </html>
