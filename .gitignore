@@ -1,36 +1,36 @@
-# Arquivos e diretórios a serem ignorados no projeto web
+# Files and directories to be ignored in the web project
 
-# Arquivos e diretórios específicos
+# Specific files and directories
 .DS_Store
 node_modules/
 dist/
 
-# Arquivos de configuração
+# Configuration files
 npm-debug.log
 yarn-error.log
 .env
 
-# Dependências gerenciadas pelo npm ou yarn
+# Dependencies managed by npm or yarn
 /node_modules
 
-# Arquivos compilados ou gerados
+# Compiled or generated files
 /dist
 /build
 *.css.map
 *.js.map
 
-# Cache e arquivos temporários
+# Cache and temporary files
 /.sass-cache
 /.tmp
 /.cache
 
-# Arquivos gerados pelo editor
+# Editor-generated files
 *.swp
 *~
 
-# Outros arquivos específicos
+# Other specific files
 .vscode/
 .idea/
 
-# Arquivos de log
+# Log files
 *.log
