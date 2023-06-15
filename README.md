@@ -21,7 +21,7 @@ PetFeliz is a student-created web project developed as part of a selective proce
 
 ## How to run it 🏃:
 
-First, clone this repository. After that, simply open 'index.html' file in a common browser. 
+First, clone this repository. After that, simply open ```index.html``` file in a common browser. 
 
 ## Screens 🎬:
 
