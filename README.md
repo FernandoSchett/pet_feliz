@@ -41,8 +41,8 @@ This project was done without any methodology or agility in approximately 3 days
 
 ### Tools Used 🛠️: 
 
-- VSCode.
-- Google Chrome.
+- [VSCode](https://code.visualstudio.com/).
+- [Google Chrome](https://www.google.pt/intl/pt-PT/chrome/?brand=FHFK&gclid=CjwKCAjwkLCkBhA9EiwAka9QRodEQ8qKZCrreRwov0Ijzf2z5khU5LZWEsSdr8EIvC_be8em2qKM8RoCBawQAvD_BwE&gclsrc=aw.ds).
 
 ## How to contribute 🫂:
 
